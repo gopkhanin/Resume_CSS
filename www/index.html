@@ -23,17 +23,17 @@
 
 <!--Navigation-->
   <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
+    <nav id="nav_f" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
             <a href="#" id="logo-container" class="brand-logo">Kanin Pradidtanon</a>
                 <ul class="right hide-on-med-and-down">
                    <!-- <li><a href="#intro">Home</a></li> -->
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#work">ABOUT</a></li>
-                    <li><a href="#team">EXPERIENCE</a></li>
-                    <li><a href="#contact">WORK</a></li>
-                    <li><a href="#">CONTACT</li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#">HOME</a></li>
@@ -49,7 +49,7 @@
 </div>
 
 <!--Hero-->
-<!-- <div class="section no-pad-bot" id="index-banner">
+<div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="text_h center header cd-headline letters type">
             <span>Developer</span>
@@ -59,40 +59,62 @@
             </span>
         </h1>
     </div>
-</div> -->
+</div>
 
-<!--Intro and service-->
-<!-- <div id="intro" class="section scrollspy">
+<!-- About -->
+<div id="about" class="section scrollspy">
     <div class="container">
         <div class="row">
-            <div  class="col s12">
-                <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h2>
-            </div>
+          <div class="card-image waves-effect waves-block waves-light col s4">
+              <img class="activator img-responsive" src="img/9352687.png" height="300" width="300">
+          </div>
+          <div class="col s8">
+              <div class="center promo promo-example">
+                <h2 align="left">Kanin Pradidtanon (<span class="span_h2"><b>KOB</b></span>)</h2>
+                  <div class="col s">
+                    <h5 align="left"><span class="span_h5">My Birth : <span class="span_h2">1994-02-18</span> : I'm <span class="span_h2">23</span> Years old.</span></h5>
+                    <h5 align="left">
+                      <span class="span_h5">I graduated form
+                        <span class="span_h2" href="#" data-toggle="tooltip" title="Hooray!"> Panyapiwat Institute of Management </span>
+                      </span>
+                    </h5>
+                  </div>
+              </div>
+          </div>
 
-            <div  class="col s12 m4 l4">
+            <!-- <div  class="col s12">
+                <h2 class="center header text_h2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <span class="span_h2"> Phasellus  </span>
+                  vestibulum lorem risus, nec suscipit lorem
+                  <span class="span_h2"> laoreet quis.</span>
+                </h2>
+            </div> -->
+
+            <!-- <div  class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-image-flash-on"></i>
                     <h5 class="promo-caption">Speeds up development</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                 </div>
-            </div>
-            <div class="col s12 m4 l4">
+            </div> -->
+            <!-- <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
                     <h5 class="promo-caption">User Experience Focused</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
-            </div>
-            <div class="col s12 m4 l4">
+            </div> -->
+            <!-- <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-hardware-desktop-windows"></i>
                     <h5 class="promo-caption">Fully responsive</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-</div> -->
+</div>
 
 <!--Work-->
 <!-- <div class="section scrollspy" id="work">
@@ -387,3 +409,9 @@
 
     </body>
 </html>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
