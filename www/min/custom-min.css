@@ -20,6 +20,13 @@
     background-color: #FF8080
 }
 
+#experience {
+  min-height: 632px;
+  max-height: 1440px;
+  position: relative;
+  background-color: #FF8080;
+}
+
 #index-banner {
     min-height: 632px;
     max-height: 864px;
@@ -56,13 +63,25 @@
     color: #FF8080
 }
 
+.fblue_color {
+  color: #0000FF
+}
+
 .span_h5 {
   font-weight: 300;
   color: #999999
 }
+.span_h5_2 {
+  font-weight: 300;
+  color: #FFFFFF
+}
 
 .text_b {
-    color: #2196F3
+    color: #FF8080
+}
+
+.text_c {
+    color: #FFFFFF
 }
 
 .in {
